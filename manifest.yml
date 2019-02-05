@@ -1,0 +1,6 @@
+applications:
+  - name: limits-service
+    path: build/libs/limits-service-0.0.1-SNAPSHOT.jar
+    random-route: true
+    env:
+      WELCOME_MESSAGE: Hello from Cloud Foundry
